@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python train_codet5.py)",
+      "Bash(.venv/Scripts/python -c \"import transformers; print\\(transformers.__version__\\); import tokenizers; print\\(tokenizers.__version__\\)\")",
+      "Bash(.venv/Scripts/python train_codet5.py)"
+    ]
+  }
+}

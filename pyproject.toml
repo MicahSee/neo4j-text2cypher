@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neo4j-text2cypher"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "neo4j",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "pytest",
+]
+
+[tool.setuptools.packages.find]
